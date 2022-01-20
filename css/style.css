@@ -1,10 +1,6 @@
-/* -------------------------------------- 
-    Common codes and utilities
-    font-family: 'Italianno', cursive;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif; 
-    ------------------------------------------*/
+/* ==========================================
+        Common codes and utilities     
+=============================================*/
 *{
     margin: 0;
     padding: 0;
@@ -18,6 +14,21 @@ body{
     color: black;
     font-size: 48px;
     font-weight: 400;
+}
+.common-btn{    
+    padding: 7px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+}
+.common-btn > img{
+    width: 28px;
+}
+.common-btn > a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
 }
 /* banner section starts here */
 .banner-title{
@@ -44,7 +55,7 @@ body{
     font-weight: 500;
 }
 /* banner section ends here */
-/* Mens jacket starts here */
+/* Mens and womens jacket starts here */
 .section-title{
     text-transform: uppercase;
 }
@@ -53,7 +64,26 @@ body{
     color: #FABE4C;
     font-weight: 500;
 }
-.button-logo{
-    text-align: end;
+.card > img{
+    padding: 15px;
+    background-color: #bebebe;
+    border-end-end-radius: 15px;
+    border-end-start-radius: 15px;
+
 }
-/* Mens jacket ends here */
+/* Mens and womens jacket ends here */
+/* footer starts here */
+footer{
+    background-color: black;
+    color:white;
+    padding: 25px;
+    text-align: center;
+}
+footer > h4, p{
+    font-size: 14px;
+}
+.author{
+    color: rgb(83, 255, 255);
+    font-size: 12px;
+}
+/* footer ends here */
