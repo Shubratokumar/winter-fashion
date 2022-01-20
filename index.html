@@ -7,29 +7,106 @@
     <title>Winter Fashion</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/6ed99c094a.js" crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="icons/cold-removebg-preview.png" type="image/x-icon">
     <style>
-        /* -------------------------------------- 
-            font-family: 'Italianno', cursive;
-            font-family: 'Montserrat', sans-serif;
-            font-family: 'Poppins', sans-serif;
-            font-family: 'Roboto', sans-serif; 
-        ------------------------------------------*/
+        
 
     </style>
 </head>
 <body>
     <header>
-
+        <!-- navbar starts here -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="icons/Group 33072.png" alt="" width="290" height="40" class="d-inline-block align-text-top">                
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" href="#">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" href="#">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white">Contact us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- navbar ends here -->
+        <!-- banner section starts here -->
+        <section class="contanier">
+            <div class="row gx-3">
+                <div class="col-12 col-lg-6">
+                    <img src="images/model.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-lg-6 p-4">
+                    <h2 class="banner-title"><span class="highlighted"> Be the hero</span> <br> of winter</h2>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium culpa autem laborum error eveniet velit nisi doloribus odio fuga incidunt ad ratione eius perspiciatis laudantium a quos, placeat magnam. Tenetur.</p>
+                    <button type="button" class="btn banner-btn">
+                        <img class="pe-2" src="/icons/shopping-cart 1.png" alt="">
+                        <a href="">Buy now</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- banner section ends here -->
     </header>
     <main>
+        <!-- Mens jackets starts here -->
+        <section class="container mt-5">
+            <h2 class="section-title">mens jacket</h2>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/jacket-4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Snowboard Jacket Mens</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="row">
+                              <div class="col">
+                                <span class="rate">$500</span>
+                              </div>
+                              <div class="col">
+                                <p class="button-logo">Lorem </p>
+                              </div>
+                          </div>
+                          <!-- <div class="">
+                            <span class="rate">$500</span>
+                            <p class="button-logo">Lorem </p>
+                          </div> -->
+                          <!-- <a href="#" class="btn btn-primary me-0">Go somewhere</a> -->
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
 
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+
+                </div>
+            </div>
+        </section>
+        <!-- Mens jackets ends here -->
     </main>
     <footer>
-        
+
     </footer>
     <!-- javascript -->
     <script src="js/bootstrap.bundle.min.js"></script>
